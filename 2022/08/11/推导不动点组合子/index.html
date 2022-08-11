@@ -20,15 +20,15 @@
     var CONFIG = {"hostname":"zhuo-lingzhao.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="不动点组合子 不动点组合子（Fixed-point combinator 或不动点算子）是计算其他函数的一个不动点的高阶函数。 对于一个一阶函数f来说，如果有一个值x使得 f(x) &#x3D; x,那么x就是函数f的不动点。例如 0 和 1 是 $ f(x) &#x3D; x^2 $的不动点。 相应的对于一个高阶函数f来说，如果存在函数g，使得f(g) &#x3D; g，那么函数g就是函数g的不动点。 使用lambda抽象">
+  <meta name="description" content="不动点组合子 不动点组合子（Fixed-point combinator 或不动点算子）是计算其他函数的一个不动点的高阶函数。 对于一个一阶函数f来说，如果有一个值x使得 f(x) &#x3D; x,那么x就是函数f的不动点。例如 0 和 1 是 $ f(x) &#x3D; x^2 $的不动点。 相应的对于一个高阶函数f来说，如果存在函数g，使得f(g) &#x3D; g，那么函数g就是函数g的不动点。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="推导不动点组合子">
 <meta property="og:url" content="http://zhuo-lingzhao.github.io/2022/08/11/%E6%8E%A8%E5%AF%BC%E4%B8%8D%E5%8A%A8%E7%82%B9%E7%BB%84%E5%90%88%E5%AD%90/index.html">
 <meta property="og:site_name" content="FD">
-<meta property="og:description" content="不动点组合子 不动点组合子（Fixed-point combinator 或不动点算子）是计算其他函数的一个不动点的高阶函数。 对于一个一阶函数f来说，如果有一个值x使得 f(x) &#x3D; x,那么x就是函数f的不动点。例如 0 和 1 是 $ f(x) &#x3D; x^2 $的不动点。 相应的对于一个高阶函数f来说，如果存在函数g，使得f(g) &#x3D; g，那么函数g就是函数g的不动点。 使用lambda抽象">
+<meta property="og:description" content="不动点组合子 不动点组合子（Fixed-point combinator 或不动点算子）是计算其他函数的一个不动点的高阶函数。 对于一个一阶函数f来说，如果有一个值x使得 f(x) &#x3D; x,那么x就是函数f的不动点。例如 0 和 1 是 $ f(x) &#x3D; x^2 $的不动点。 相应的对于一个高阶函数f来说，如果存在函数g，使得f(g) &#x3D; g，那么函数g就是函数g的不动点。">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2022-08-11T04:28:36.000Z">
-<meta property="article:modified_time" content="2022-08-11T04:29:00.152Z">
+<meta property="article:modified_time" content="2022-08-11T04:29:30.631Z">
 <meta property="article:author" content="卓凌昭">
 <meta name="twitter:card" content="summary">
 
@@ -174,7 +174,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2022-08-11 12:28:36 / Modified: 12:29:00" itemprop="dateCreated datePublished" datetime="2022-08-11T12:28:36+08:00">2022-08-11</time>
+              <time title="Created: 2022-08-11 12:28:36 / Modified: 12:29:30" itemprop="dateCreated datePublished" datetime="2022-08-11T12:28:36+08:00">2022-08-11</time>
             </span>
 
           
@@ -192,6 +192,7 @@
 <p>不动点组合子（Fixed-point combinator 或不动点算子）是计算其他函数的一个不动点的高阶函数。</p>
 <p>对于一个一阶函数f来说，如果有一个值x使得 <code>f(x) = x</code>,那么x就是函数f的不动点。例如 0 和 1 是 <span class="markdown-them-math-inline">$ f(x) = x^2 $</span>的不动点。</p>
 <p>相应的对于一个高阶函数f来说，如果存在函数g，使得<code>f(g) = g</code>，那么函数g就是函数g的不动点。</p>
+<span id="more"></span>
 <h2 id="使用lambda抽象">使用lambda抽象</h2>
 <p>不动点组合子可以用非递归的lambda抽象来定义。</p>
 <p>在lambda演算中，没有实名函数，所有的函数都是匿名的。例如：<br>
