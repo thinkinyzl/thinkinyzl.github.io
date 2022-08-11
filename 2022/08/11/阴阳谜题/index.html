@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"zhuo-lingzhao.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="开篇 先来直观的感受下阴阳谜题 1234567(let* ((yin        ((lambda (cc) (display #\@) cc)         (call&#x2F;cc (lambda (c) c))))                (yang        ((lambda (cc) (display #\*) cc)         (call&#x2F;cc (lambda (c) c)">
+<meta property="og:type" content="article">
+<meta property="og:title" content="阴阳谜题">
+<meta property="og:url" content="http://zhuo-lingzhao.github.io/2022/08/11/%E9%98%B4%E9%98%B3%E8%B0%9C%E9%A2%98/index.html">
+<meta property="og:site_name" content="FD">
+<meta property="og:description" content="开篇 先来直观的感受下阴阳谜题 1234567(let* ((yin        ((lambda (cc) (display #\@) cc)         (call&#x2F;cc (lambda (c) c))))                (yang        ((lambda (cc) (display #\*) cc)         (call&#x2F;cc (lambda (c) c)">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2022-08-11T04:14:07.000Z">
+<meta property="article:modified_time" content="2022-08-11T04:18:25.618Z">
+<meta property="article:author" content="卓凌昭">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://zhuo-lingzhao.github.io/2022/08/11/%E9%98%B4%E9%98%B3%E8%B0%9C%E9%A2%98/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'en'
+  };
+</script>
+
+  <title>阴阳谜题 | FD</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">FD</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://zhuo-lingzhao.github.io/2022/08/11/%E9%98%B4%E9%98%B3%E8%B0%9C%E9%A2%98/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="卓凌昭">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="FD">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          阴阳谜题
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2022-08-11 12:14:07 / Modified: 12:18:25" itemprop="dateCreated datePublished" datetime="2022-08-11T12:14:07+08:00">2022-08-11</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h2 id="开篇">开篇</h2>
+<p>先来直观的感受下阴阳谜题</p>
+<figure class="highlight scheme"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">(<span class="name"><span class="built_in">let*</span></span> ((<span class="name">yin</span></span><br><span class="line">        ((<span class="name"><span class="built_in">lambda</span></span> (cc) (<span class="name"><span class="built_in">display</span></span> <span class="literal">#\@</span>) cc)</span><br><span class="line">         (<span class="name"><span class="built_in">call/cc</span></span> (<span class="name"><span class="built_in">lambda</span></span> (c) c))))         </span><br><span class="line">       (<span class="name">yang</span></span><br><span class="line">        ((<span class="name"><span class="built_in">lambda</span></span> (cc) (<span class="name"><span class="built_in">display</span></span> <span class="literal">#\*</span>) cc)</span><br><span class="line">         (<span class="name"><span class="built_in">call/cc</span></span> (<span class="name"><span class="built_in">lambda</span></span> (c) c)))))        </span><br><span class="line">  (<span class="name">yin</span> yang))</span><br></pre></td></tr></table></figure>
+<span id="more"></span>
+<p>这段代码会输出以下内容</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">@*@**@***@****@*****@******@*******@********@********* ...（如此这般重复循环）</span><br></pre></td></tr></table></figure>
+<p>正所谓，道生一，一生二，二生三，三生万物。。。</p>
+<h2 id="continuation">continuation</h2>
+<p>在理解阴阳谜题之前，先来看看 continuation。continuation 是 Scheme 中的一种特殊类型，一般翻译成续延或者继续，表示是在返回顶层（Top level）之前所需要的计算，。例如：</p>
+<figure class="highlight scheme"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">(<span class="name"><span class="built_in">*</span></span> <span class="number">3</span> (<span class="name"><span class="built_in">+</span></span> <span class="number">1</span> <span class="number">2</span>))</span><br><span class="line">先计算 （+ <span class="number">1</span> <span class="number">2</span>），然后计算 &#123;(<span class="name"><span class="built_in">*</span></span> <span class="number">3</span> [])&#125; 乘以<span class="number">3</span>。 这个续延就是 <span class="number">3</span> * [] 和 填入这个中括号的 <span class="number">3</span> 组成的程序。</span><br></pre></td></tr></table></figure>
+<p>其实在实际工作中，大家都或多或少的接触过continuation，只是不知道这个名次罢了。也许经常听过一个名词缩写，CPS(continuation passing style)， CPS 是一种编程风格，它要求把依赖于当前函数结果的后续函数作为参数，传递给当前函数。举个例子：</p>
+<figure class="highlight scheme"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">(<span class="name"><span class="built_in">define</span></span> (<span class="name">return</span> x) </span><br><span class="line">    x)</span><br><span class="line">    </span><br><span class="line">(<span class="name"><span class="built_in">define</span></span> (<span class="name">k+</span> a b k)</span><br><span class="line">    (<span class="name">k</span> (<span class="name"><span class="built_in">+</span></span> a b))</span><br><span class="line">    </span><br><span class="line">(<span class="name"><span class="built_in">define</span></span> (<span class="name">k*</span> a b k)</span><br><span class="line">    (<span class="name">k</span> (<span class="name"><span class="built_in">*</span></span> a b))</span><br><span class="line">k就是一个后续函数</span><br><span class="line"></span><br><span class="line">如果用CPS方式计算（* <span class="number">3</span> （+ <span class="number">1</span> <span class="number">2</span>））</span><br><span class="line">（k+ <span class="number">1</span> <span class="number">2</span> (<span class="name"><span class="built_in">lambda</span></span> (x) (<span class="name">k*</span> x <span class="number">3</span> return)))</span><br></pre></td></tr></table></figure>
+<p>如果按照正常逻辑，是先计算 1 + 2， 然后再 *3。 但是在CPS风格中，想要计算 [] *3，就要依赖于 1 + 2， 所以你要把 [] + 3 提升为一个函数，把这个函数，传递给 1 + 2 。假设 [] * 3 是 f(x),使用k+ 函数，就是：</p>
+<figure class="highlight scheme"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">(<span class="name">k+</span> <span class="number">1</span> <span class="number">2</span> f(<span class="name">x</span>))</span><br><span class="line"></span><br><span class="line">scheme中有匿名函数，把f(<span class="name">x</span>)转为匿名函数</span><br><span class="line">就是 </span><br><span class="line"></span><br><span class="line">(<span class="name"><span class="built_in">lambda</span></span> (x) (<span class="name">k*</span> x <span class="number">3</span> g))</span><br><span class="line"></span><br><span class="line">按照上面定义的k*函数，需要一个k函数，暂时用g代替。</span><br><span class="line">代入k+函数，得到如下：</span><br><span class="line"></span><br><span class="line">（k+ <span class="number">1</span> <span class="number">2</span> (<span class="name"><span class="built_in">lambda</span></span> (x) (<span class="name">k*</span> x <span class="number">3</span> g)))</span><br><span class="line"></span><br><span class="line">scheme中优先计算最里面的表达式，所以会优先计算 lambda 函数。</span><br><span class="line">这个函数要把计算结果传递给 k+ 函数，所以g的功能就是我们之前定义好的 return 函数。</span><br><span class="line">最终结果就是：</span><br><span class="line"></span><br><span class="line">k+ <span class="number">1</span> <span class="number">2</span> (<span class="name"><span class="built_in">lambda</span></span> (x) (<span class="name">k*</span> x <span class="number">3</span> return)))</span><br></pre></td></tr></table></figure>
+<p>通过这个简单的例子，可以感觉到，CPS风格有一点点复杂，相对于正常风格的代码，它更难以理解。但是CPS也有一些性质，使得在某些情况下会让编程变得更简单。比如在一些像是自然语言解析和逻辑编程等复杂程序中非常有用，因为与通常的编程风格相比，CPS可以更灵活地改变后续过程。</p>
+<p>continuation存在于计算的整个过程中，函数式程序设计语言和CPS可以显式地处理它。 在scheme中，有一种强大的武器，call with current continuation，它可以随意的掉用当下的contunuation，以为名字太长，一般简写成call/cc.</p>
+<figure class="highlight scheme"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">(<span class="name"><span class="built_in">define</span></span> call/cc call-with-current-continuation)</span><br></pre></td></tr></table></figure>
+<p>call/cc 接受一个参数，该参数是一个函数，这个函数的参数，接受当前的继续。</p>
+<figure class="highlight scheme"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">(<span class="name"><span class="built_in">*</span></span> <span class="number">3</span> (<span class="name"><span class="built_in">call/cc</span></span> (<span class="name"><span class="built_in">lambda</span></span> (k) (<span class="name"><span class="built_in">+</span></span> <span class="number">1</span> <span class="number">2</span>))))</span><br><span class="line">(<span class="name"><span class="built_in">*</span></span> <span class="number">3</span> (<span class="name"><span class="built_in">call/cc</span></span> (<span class="name"><span class="built_in">lambda</span></span> (k) (<span class="name"><span class="built_in">+</span></span> <span class="number">1</span> (<span class="name">k</span> <span class="number">2</span>))))) </span><br></pre></td></tr></table></figure>
+<p>在第一个表达式中，虽然使用了call/cc，但是并没有显示调用，所以结果仍然是 9。<br>
+第二个表达式中，继续以2作为参数被调用，逃逸至call/cc的外部，k就是（* 3 []),所以结果是6。</p>
+<p>call/cc 功能很强大，一般可以用来改变程序的执行顺序，还可以做一些生成器的任务。因为继续记录了后续计算过程，因此，用于多任务同时执行的协程（Coroutine）可以使用继续来实现。</p>
+<h2 id="正题">正题</h2>
+<figure class="highlight scheme"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">(<span class="name"><span class="built_in">let*</span></span> ((<span class="name">yin</span></span><br><span class="line">        ((<span class="name"><span class="built_in">lambda</span></span> (cc) (<span class="name"><span class="built_in">display</span></span> <span class="literal">#\@</span>) cc)</span><br><span class="line">         (<span class="name"><span class="built_in">call/cc</span></span> (<span class="name"><span class="built_in">lambda</span></span> (c) c))))         <span class="comment">;;;c1</span></span><br><span class="line">       (<span class="name">yang</span></span><br><span class="line">        ((<span class="name"><span class="built_in">lambda</span></span> (cc) (<span class="name"><span class="built_in">display</span></span> <span class="literal">#\*</span>) cc)</span><br><span class="line">         (<span class="name"><span class="built_in">call/cc</span></span> (<span class="name"><span class="built_in">lambda</span></span> (c) c)))))        <span class="comment">;;;c2</span></span><br><span class="line">  (<span class="name">yin</span> yang))</span><br></pre></td></tr></table></figure>
+<p>let* 只是在当前环境下，绑定创建好的变量，这里的主体是（yin yang）</p>
+<figure class="highlight scheme"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">(<span class="name"><span class="built_in">lambda</span></span> (c) c) 这个匿名函数就是输出参数，传入的参数是什么，输出就是什么。</span><br><span class="line">如果将这个函数的续延作为参数，传递给自己，那么这个结果就是这个传进来的续延，即：</span><br><span class="line">((<span class="name"><span class="built_in">lambda</span></span> (cc) cc)</span><br><span class="line">     (<span class="name"><span class="built_in">call/cc</span></span> (<span class="name"><span class="built_in">lambda</span></span> (c) c)))</span><br><span class="line">     </span><br><span class="line">根据续延的定义，我们可以得知当前表达式的续延：</span><br><span class="line">((<span class="name"><span class="built_in">lambda</span></span> (cc) cc) [])</span><br><span class="line"></span><br><span class="line">所以这个表达式替换为：</span><br><span class="line">((<span class="name"><span class="built_in">lambda</span></span> (cc) cc) </span><br><span class="line">    ((<span class="name"><span class="built_in">lambda</span></span> (cc) cc) []))</span><br></pre></td></tr></table></figure>
+<p>这个（yin yang） 做的事情如下：</p>
+<ol>
+<li>获取当前的续延</li>
+<li>打印@</li>
+<li>把 1 获取的续延，赋给yin</li>
+<li>获取当前的续延</li>
+<li>打印*</li>
+<li>把4获取的续延，赋给yang</li>
+<li>yang 作为参数，调用 yin</li>
+</ol>
+<p>我们来推导一下：</p>
+<figure class="highlight scheme"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br></pre></td><td class="code"><pre><span class="line">((<span class="name"><span class="built_in">lambda</span></span> (yin)</span><br><span class="line">     (<span class="name"><span class="built_in">display</span></span> <span class="literal">#\@</span>)</span><br><span class="line">     ((<span class="name"><span class="built_in">lambda</span></span> (yang)</span><br><span class="line">       (<span class="name"><span class="built_in">display</span></span> <span class="literal">#\*</span>)</span><br><span class="line">       (<span class="name">yin</span> yang))</span><br><span class="line">     (<span class="name"><span class="built_in">call/cc</span></span> (<span class="name"><span class="built_in">lambda</span></span> (k2) k2))))</span><br><span class="line">   (<span class="name"><span class="built_in">call/cc</span></span> (<span class="name"><span class="built_in">lambda</span></span> (k1) k1)))</span><br><span class="line">   </span><br><span class="line"><span class="number">1</span>. 展开yin,输出 @</span><br><span class="line"></span><br><span class="line"> ((<span class="name"><span class="built_in">lambda</span></span> (yang)</span><br><span class="line">   (<span class="name"><span class="built_in">display</span></span> <span class="literal">#\*</span>)</span><br><span class="line">   (<span class="name">k1</span> yang))</span><br><span class="line"> (<span class="name"><span class="built_in">call/cc</span></span> (<span class="name"><span class="built_in">lambda</span></span> (k2) k2)))</span><br><span class="line"> </span><br><span class="line"> <span class="number">2</span>. 展开yang，输出 *</span><br><span class="line"></span><br><span class="line"> （k<span class="number">1</span> k<span class="number">2</span>)</span><br><span class="line"> </span><br><span class="line"> <span class="number">3</span>. k<span class="number">1</span> 是 yin 的 continuation，展开为：</span><br><span class="line"> </span><br><span class="line">((<span class="name"><span class="built_in">lambda</span></span> (yin)</span><br><span class="line">    (<span class="name"><span class="built_in">display</span></span> <span class="literal">#\@</span>)</span><br><span class="line">    ((<span class="name"><span class="built_in">lambda</span></span> (yang)</span><br><span class="line">        (<span class="name"><span class="built_in">display</span></span> <span class="literal">#\*</span>)</span><br><span class="line">        (<span class="name">yin</span> yang))</span><br><span class="line">      (<span class="name"><span class="built_in">call/cc</span></span> (<span class="name"><span class="built_in">lambda</span></span> (k3) k3))))</span><br><span class="line">    k2)</span><br><span class="line"> </span><br><span class="line"> <span class="number">4</span>. 输出 @</span><br><span class="line"></span><br><span class="line">((<span class="name"><span class="built_in">lambda</span></span> (yang)</span><br><span class="line">    (<span class="name"><span class="built_in">display</span></span> <span class="literal">#\*</span>)</span><br><span class="line">    (<span class="name">k2</span> yang))</span><br><span class="line">  (<span class="name"><span class="built_in">call/cc</span></span> (<span class="name"><span class="built_in">lambda</span></span> (k3) k3)))</span><br><span class="line">  </span><br><span class="line"> <span class="number">5</span>. 展开 yang ，输出 *</span><br><span class="line"></span><br><span class="line">  （k<span class="number">2</span> k<span class="number">3</span>)</span><br><span class="line">  </span><br><span class="line"> <span class="number">6</span>. k<span class="number">2</span>是之前 yang 的续延，展开为:</span><br><span class="line"></span><br><span class="line"> ((<span class="name"><span class="built_in">lambda</span></span> (yang)</span><br><span class="line">    (<span class="name"><span class="built_in">display</span></span> <span class="literal">#\*</span>)</span><br><span class="line">    (<span class="name">k1</span> yang))</span><br><span class="line">   k3)</span><br><span class="line">  </span><br><span class="line"><span class="number">7</span>. 输出 *</span><br><span class="line"></span><br><span class="line">  （k<span class="number">1</span> k<span class="number">3</span>)</span><br><span class="line"></span><br><span class="line"><span class="number">8</span>. 展开k<span class="number">1</span></span><br><span class="line">((<span class="name"><span class="built_in">lambda</span></span> (yin)</span><br><span class="line">    (<span class="name"><span class="built_in">display</span></span> <span class="literal">#\@</span>)</span><br><span class="line">    ((<span class="name"><span class="built_in">lambda</span></span> (yang)</span><br><span class="line">        (<span class="name"><span class="built_in">display</span></span> <span class="literal">#\*</span>)</span><br><span class="line">        (<span class="name">yin</span> yang))</span><br><span class="line">      (<span class="name"><span class="built_in">call/cc</span></span> (<span class="name"><span class="built_in">lambda</span></span> (k4) k4))))</span><br><span class="line">    k3)</span><br><span class="line"> </span><br><span class="line"><span class="number">9</span>. 输出 @</span><br><span class="line"></span><br><span class="line">((<span class="name"><span class="built_in">lambda</span></span> (yang)</span><br><span class="line">        (<span class="name"><span class="built_in">display</span></span> <span class="literal">#\*</span>)</span><br><span class="line">        (<span class="name">k3</span> yang))</span><br><span class="line">      (<span class="name"><span class="built_in">call/cc</span></span> (<span class="name"><span class="built_in">lambda</span></span> (k4) k4)))</span><br><span class="line"></span><br><span class="line"><span class="number">10</span>. 输出 *</span><br><span class="line"></span><br><span class="line">（k<span class="number">3</span> k<span class="number">4</span>)</span><br><span class="line"></span><br><span class="line"><span class="number">11</span>. k<span class="number">3</span> 是前面代入的 <span class="number">4</span>， 它是 yang 的 continuation，只不过它是基于当时的环境的 continuation，上下文环境不一样而已。 </span><br><span class="line"></span><br><span class="line">((<span class="name"><span class="built_in">lambda</span></span> (yang)</span><br><span class="line">        (<span class="name"><span class="built_in">display</span></span> <span class="literal">#\*</span>)</span><br><span class="line">        (<span class="name">k2</span> yang))</span><br><span class="line">     k4)</span><br><span class="line"></span><br><span class="line"><span class="number">12</span>. 代入k<span class="number">4</span>，输出 *</span><br><span class="line"></span><br><span class="line">（k<span class="number">2</span> k<span class="number">4</span>)</span><br><span class="line"></span><br><span class="line"><span class="number">13</span>. k<span class="number">2</span> 上面已经知道了，代入</span><br><span class="line"></span><br><span class="line">((<span class="name"><span class="built_in">lambda</span></span> (yang)</span><br><span class="line">        (<span class="name"><span class="built_in">display</span></span> <span class="literal">#\*</span>)</span><br><span class="line">        (<span class="name">k1</span> yang))</span><br><span class="line">     k4)</span><br><span class="line"></span><br><span class="line"><span class="number">14</span>. 输出 *</span><br><span class="line"></span><br><span class="line">（k<span class="number">1</span> k<span class="number">4</span>)</span><br><span class="line"></span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+<p>按照上方的方式不断的去递归，就可以推导出代码的输出结果：</p>
+<figure class="highlight scheme"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">@*@**@***@****@*****@******@*******@********@********* ...</span><br></pre></td></tr></table></figure>
+<h2 id="结尾">结尾</h2>
+<p>其实想要理解阴阳谜题，主要还是理解continuation，只要理解了continuation，就可以很容易的推导出结果。</p>
+<blockquote>
+<p><a target="_blank" rel="noopener" href="https://thzt.github.io/2015/01/18/continuation/">Continuation 入门指南</a><br>
+<a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Continuation">Continuation wiki</a><br>
+<a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Continuation-passing_style">Continuation Passing Style</a></p>
+</blockquote>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/08/11/Objc%E6%96%B9%E6%B3%95%E7%BC%93%E5%AD%98/" rel="prev" title="Objc方法缓存">
+      <i class="fa fa-chevron-left"></i> Objc方法缓存
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2022/08/11/FuctionBuilder%E6%B5%85%E8%B0%88/" rel="next" title="FuctionBuilder浅谈">
+      FuctionBuilder浅谈 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BC%80%E7%AF%87"><span class="nav-number">1.</span> <span class="nav-text">开篇</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#continuation"><span class="nav-number">2.</span> <span class="nav-text">continuation</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%AD%A3%E9%A2%98"><span class="nav-number">3.</span> <span class="nav-text">正题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%93%E5%B0%BE"><span class="nav-number">4.</span> <span class="nav-text">结尾</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">卓凌昭</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/zhuo-lingzhao" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;zhuo-lingzhao" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">卓凌昭</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a>
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
